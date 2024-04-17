@@ -15,5 +15,4 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
-          gitleaks detect ${{ github.workspace }} -v
       - run: echo "🍏 This job's status is ${{ job.status }}."
